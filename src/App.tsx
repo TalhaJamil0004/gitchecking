@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+
        <nav className='navbar'>
         <div className='container'>
            <a href='/home'>Home</a>
@@ -14,6 +15,7 @@ function App() {
            <a href='/home'>Location</a>
            </div>
        </nav>
+
     </>
   )
 }
