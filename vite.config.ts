@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
+import sassDts from 'vite-plugin-sass-dts';
+
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [ sassDts()], // Remove `vue()` if not using Vue
+
+});
